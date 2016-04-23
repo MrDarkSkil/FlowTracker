@@ -30,7 +30,7 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 
 ##Suivre le développement de l'application:
 
-Slacks: https://flowtracker-team.slack.com/
+Slacks: https://flowtracker-team.slack.com/signup
 
 ###Auteurs:
 
