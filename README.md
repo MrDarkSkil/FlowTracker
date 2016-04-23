@@ -28,6 +28,9 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + Etape 4 => Allez dans "/config/config.php" et configurez les identifiant de connexion à la base de données.
 + Etape 5 => Connectez-vous ! email = "root@root.com"; password = "toor" (sans les doubles côtes !).
 
+##Suivre le développement de l'application:
+
+Slacks: https://flowtracker-team.slack.com/
 
 ###Auteurs:
 
