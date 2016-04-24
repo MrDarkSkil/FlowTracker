@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="[*] Prepare search victim&#10;">
+    <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/victim/savelocalised.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/localised.php" afterPath="$PROJECT_DIR$/admin/victim/localised.php" />
     </list>
@@ -24,100 +25,141 @@
     <favorites_list name="FlowTracker" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.115385">
-              <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme/pages/tables/data.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1604" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15384616">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-              <folding>
-                <marker date="1461531578890" expanded="true" signature="1249:1434" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1498:3364" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1520:3364" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1754:3362" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1833:1943" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1844:1928" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1944:3258" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1944:3294" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1944:3330" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="1972:3218" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2009:2092" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2161:3169" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2240:3150" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2264:2529" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2285:2504" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2553:2838" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2574:2813" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2632:2697" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2862:3127" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="2883:3102" placeholder="..." />
-                <marker date="1461531578890" expanded="true" signature="4227:4267" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localised.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29127726">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notLocalised.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.961538">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.115385">
+                  <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/theme/pages/tables/data.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.65384614">
+                  <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1604" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-31.884615">
+                  <caret line="122" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+                  <folding>
+                    <marker date="1461531578890" expanded="true" signature="1249:1434" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1498:3364" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1520:3364" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1754:3362" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1833:1943" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1844:1928" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1944:3258" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1944:3294" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1944:3330" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="1972:3218" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2009:2092" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2161:3169" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2240:3150" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2264:2529" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2285:2504" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2553:2838" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2574:2813" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2632:2697" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2862:3127" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="2883:3102" placeholder="..." />
+                    <marker date="1461531578890" expanded="true" signature="4227:4267" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="localised.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.60280377">
+                  <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Victim.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/class/Victim.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="34.653847">
+                  <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+                  <folding>
+                    <marker date="1461530393931" expanded="true" signature="2810:3119" placeholder="..." />
+                    <marker date="1461530393931" expanded="true" signature="4089:4398" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="savelocalised.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="7.8461537">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="notLocalised.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.961538">
+                  <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/sidebar.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-18.307692">
+                  <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="savelocalised.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.41744548">
+                  <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,6 +206,7 @@
         <option value="$PROJECT_DIR$/API/addVict.php" />
         <option value="$PROJECT_DIR$/admin/sidebar.php" />
         <option value="$PROJECT_DIR$/admin/victim/search.php" />
+        <option value="$PROJECT_DIR$/admin/victim/savelocalised.php" />
         <option value="$PROJECT_DIR$/admin/victim/localised.php" />
       </list>
     </option>
@@ -291,7 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,10 +349,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victim" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,6 +366,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\admin\victim" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\upload" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\class" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\images\upload" />
@@ -657,7 +697,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461531705529</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="[*] Prepare search victim&#10;">
+      <created>1461531865028</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1461531865028</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,14 +764,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/victim/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -751,13 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/Victim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1090,8 +1121,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616">
-          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+        <state vertical-scroll-proportion="-31.884615">
+          <caret line="122" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding>
             <marker date="1461531578890" expanded="true" signature="1249:1434" placeholder="..." />
             <marker date="1461531578890" expanded="true" signature="1498:3364" placeholder="..." />
@@ -1118,10 +1149,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class/Victim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="34.653847">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <marker date="1461530393931" expanded="true" signature="2810:3119" placeholder="..." />
+            <marker date="1461530393931" expanded="true" signature="4089:4398" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29127726">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.60280377">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41744548">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
           <folding />
         </state>
       </provider>
