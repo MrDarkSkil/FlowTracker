@@ -128,7 +128,7 @@ else
 if (time_past($start_time) < 5)
 {
     echo '<script src="/assets/js/dropzone.js"></script>
-          <form action="/file-upload"
+          <form action="/images/victimes"
             class="dropzone"
             id="my-awesome-dropzone"></form>
           ';

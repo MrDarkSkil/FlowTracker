@@ -106,7 +106,7 @@ function    time_past($start)
 
 if (time_past($start_time) < 3)
 {
-	echo "<iframe width=\"100%\" height=\"683\" frameborder=\"no\" scrolling=\"no\" src=\"/chat/?logout=true\"></iframe>";
+	//Affiche le chat en ligne
 }
 else
 {
