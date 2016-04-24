@@ -87,7 +87,7 @@ $victime = new Victim($apiUrl);
                             echo '<font color="blue">Pris en charge</font>';
                         ?>
                         <br>
-                        <label>Commentaire</label>
+                        <label>Commentaire</label><br>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></br>
                     </div>
                     <!-- /.box-body -->
@@ -103,7 +103,7 @@ $victime = new Victim($apiUrl);
                     </ul>
                     <div class="tab-content">
                         <div class="active tab-pane" id="map">
-                            <?php if ($victime->getVictInfo($_GET['victToken'], "traitement")){?>
+                            <?php if ($victime->getVictInfo($_GET['victToken'], "traitement") != "0"){?>
                             <iframe width=100% height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=2.077789306640625 %2C 48.64198358792223 %2C 2.6030731201171875 %2C 49.025262501613014&amp;layer=mapnik&amp;marker=<?php echo $victime->getVictInfo($_GET['victToken'], "latitude");?>%2C <?php echo $victime->getVictInfo($_GET['victToken'], "longitude");?> style="border: 1px solid black"></iframe>
                             <?php
                             }
@@ -122,7 +122,7 @@ $victime = new Victim($apiUrl);
                                 <!-- text input -->
                                 <div class="form-group" action="/class/Victime.php" method="post">
                                     <label>Id victime</label>
-                                    <input type="text" class="form-control" name="lastname" placeholder="Nom" value="<?php echo $_POST['victToken'];?>">
+                                    <input type="text" class="form-control" name="token_vict" placeholder="Nom" value="<?php echo $_GET['victToken'];?>">
 
                                     <label>Nom</label>
                                     <input type="text" class="form-control" name="lastname" placeholder="Nom" value="<?php echo $victime->getVictInfo($_GET['victToken'], "nom");?>">
@@ -130,10 +130,10 @@ $victime = new Victim($apiUrl);
                                     <label>Prenom</label>
                                     <input type="text" class="form-control" name="firstname" placeholder="Prenom" value="<?php echo $victime->getVictInfo($_GET['victToken'], "prenom");?>">
                                     <div class="form-group">
-                                        <label for="sel1">Sexe</label>
+                                        <label name="genre"for="sel1">Sexe</label>
                                         <select class="form-control" id="sel1">
-                                            <option <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "selected";};?>>Homme</option>
-                                            <option <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "1") {echo "selected";};?>>Femme</option>
+                                            <option value="0" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "selected";};?>>Homme</option>
+                                            <option value="1" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "1") {echo "selected";};?>>Femme</option>
                                         </select>
                                     </div>
                                     <label>Age de la Victime</label>
@@ -147,11 +147,11 @@ $victime = new Victim($apiUrl);
                                         <div class="input-group-addon">
                                             <i class="fa fa-phone"></i>
                                         </div>
-                                        <input type="number" class="form-control" maxlength="20" data-inputmask='"mask": "(999) 999-9999"' data-mask value="<?php echo $victime->getVictInfo($_GET['victToken'], "telephone");?>">
+                                        <input type="number" name="phone" class="form-control" maxlength="20" data-inputmask='"mask": "0612345678"' data-mask value="<?php echo $victime->getVictInfo($_GET['victToken'], "telephone");?>">
                                     </div>
 
                                     <label>Commentaire</label>
-                                    <textarea class="form-control" rows="3" placeholder="Enter ..."><?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></textarea>
+                                    <textarea class="form-control" name="commentaire" rows="3" placeholder="Entrer ..."><?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></textarea>
                                 </div>
                                 <div class="box-footer">
                                     <button type="submit" name="action" value="editVict" class="btn btn-primary">Editer la Victime</button>
