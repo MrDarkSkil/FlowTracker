@@ -42,11 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fr.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addVict.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/addVict.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.424">
+              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+              <folding>
+                <marker date="1461521230320" expanded="true" signature="463:507" placeholder="SELECT * FRO... session" />
+                <marker date="1461521230320" expanded="true" signature="881:1115" placeholder="INSERT INTO `victime`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/fr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6573333">
-              <caret line="122" column="103" selection-start-line="122" selection-start-column="103" selection-end-line="122" selection-end-column="103" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -98,7 +111,6 @@
         <option value="$PROJECT_DIR$/MailFramework/contents.html" />
         <option value="$PROJECT_DIR$/MailFramework/images/phpmailer_mini.png.url" />
         <option value="$PROJECT_DIR$/MailFramework/index.php" />
-        <option value="$PROJECT_DIR$/API/addVict.php" />
         <option value="$PROJECT_DIR$/class/Mail.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/database.sql" />
@@ -114,6 +126,7 @@
         <option value="$PROJECT_DIR$/test/index.html" />
         <option value="$PROJECT_DIR$/class/uploadFile.php" />
         <option value="$PROJECT_DIR$/client/fr.php" />
+        <option value="$PROJECT_DIR$/API/addVict.php" />
       </list>
     </option>
   </component>
@@ -173,6 +186,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FlowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -699,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/addVict.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34304932">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -909,9 +928,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/fr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6573333">
-          <caret line="122" column="103" selection-start-line="122" selection-start-column="103" selection-end-line="122" selection-end-column="103" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/addVict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.424">
+          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+          <folding>
+            <marker date="1461521230320" expanded="true" signature="463:507" placeholder="SELECT * FRO... session" />
+            <marker date="1461521230320" expanded="true" signature="881:1115" placeholder="INSERT INTO `victime`... " />
+          </folding>
         </state>
       </provider>
     </entry>

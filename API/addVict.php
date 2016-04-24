@@ -34,7 +34,7 @@ VALUES ("",:token,:nom,:prenom,:nombre,:age,:genre,:telephone,:id,"0",:datee,:co
             ':genre' => $_POST['genre'],
             ':telephone' => $_POST['telephone'],
             ':datee' => date("h;i;d;m;Y"),
-            ':commentaire' => $_POST['commentaire'],
+            ':commentaire' => $_POST['commentaire'] . "Lien de test: http://hackathon.emodyz.com/client/?token=" . $token,
             ':id' => $id));
         $arr = array('status' => 42, 'msg' => "Victime creee !");
     }
