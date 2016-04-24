@@ -3,7 +3,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/class/uploader/Uploader.php';
 
 // Directory where we're storing uploaded images
 // Remember to set correct permissions or it won't work
-$upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/images/upload/';
+$upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/upload/victim/';
 
 $uploader = new FileUpload('uploadfile');
 

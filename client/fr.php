@@ -30,19 +30,6 @@ function    time_past($start)
 </head>
 <body>
 
-<div class="wrapper style1 first">
-    <article class="container" id="top">
-        <div class="row">
-            <div class="8u 12u(mobile)">
-                <header>
-                    <h1 id="zone">En cours de géolocalisation</h1>
-                </header>
-                <p>Ce message vous indique que votre réseau est suffisamment puissant pour disposer des services supplementaire de secours listé çi dessous.</p>
-            </div>
-        </div>
-    </article>
-</div>
-
 <script>
     var xhr = new XMLHttpRequest();
 
@@ -133,7 +120,7 @@ if (time_past($start_time) < 5)
         </div>
         <div class="row" style="padding-top:10px;">
             <div class="col-xs-2">
-                <button id="uploadBtn" class="btn btn-large btn-primary">Prendre une photo</button>
+                <button id="uploadBtn" class="btn btn-large btn-primary">Prendre une photo ou une vidéo</button>
             </div>
             <div class="col-xs-10">
                 <div id="progressOuter" class="progress progress-striped active" style="display:none;">
@@ -181,14 +168,14 @@ if (time_past($start_time) < 5)
                 },
                 onSubmit: function() {
                     msgBox.innerHTML = ''; // empty the message box
-                    btn.innerHTML = 'Uploading...'; // change button text to "Uploading..."
+                    btn.innerHTML = 'Envoie du ficher en cour.'; // change button text to "Uploading..."
                 },
                 onComplete: function( filename, response ) {
-                    btn.innerHTML = 'Choose Another File';
+                    btn.innerHTML = 'Prendre une autre photo ou vidéo';
                     progressOuter.style.display = 'none'; // hide progress bar when upload is completed
 
                     if ( !response ) {
-                        msgBox.innerHTML = 'Unable to upload file';
+                        msgBox.innerHTML = 'Erreur lors de l\'envoie du fichier;
                         return;
                     }
 
@@ -200,7 +187,7 @@ if (time_past($start_time) < 5)
                             msgBox.innerHTML = escapeTags( response.msg );
 
                         } else {
-                            msgBox.innerHTML = 'An error occurred and the upload failed.';
+                            msgBox.innerHTML = 'Une erreur est survenue lors de l\'envoie du fichier';
                         }
                     }
                 },
