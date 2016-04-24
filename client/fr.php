@@ -168,14 +168,14 @@ if (time_past($start_time) < 5)
                 },
                 onSubmit: function() {
                     msgBox.innerHTML = ''; // empty the message box
-                    btn.innerHTML = 'Envoie du ficher en cour.'; // change button text to "Uploading..."
+                    btn.innerHTML = 'Uploading...'; // change button text to "Uploading..."
                 },
                 onComplete: function( filename, response ) {
-                    btn.innerHTML = 'Prendre une autre photo ou vidéo';
+                    btn.innerHTML = 'Choose Another File';
                     progressOuter.style.display = 'none'; // hide progress bar when upload is completed
 
                     if ( !response ) {
-                        msgBox.innerHTML = 'Erreur lors de l\'envoie du fichier;
+                        msgBox.innerHTML = 'Unable to upload file';
                         return;
                     }
 
@@ -187,7 +187,7 @@ if (time_past($start_time) < 5)
                             msgBox.innerHTML = escapeTags( response.msg );
 
                         } else {
-                            msgBox.innerHTML = 'Une erreur est survenue lors de l\'envoie du fichier';
+                            msgBox.innerHTML = 'An error occurred and the upload failed.';
                         }
                     }
                 },
