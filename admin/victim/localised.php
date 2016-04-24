@@ -92,60 +92,6 @@
     <!-- /.box -->
 </div>
 
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-        <h1>
-            Liste des Victimes localisées
-            <small>Panneau de contrôle</small>
-        </h1>
-    </section>
-    <section class="content">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="box">
-
-                    <!-- /.box-header -->
-                    <div class="box-body">
-                        <table id="example1" class="table table-bordered table-striped">
-                            <thead>
-                            <tr>
-                                <th>Nom</th>
-                                <th>Prénom</th>
-                                <th>Téléphone</th>
-                                <th>Age</th>
-                                <th>Sexe</th>
-                                <th>Edition</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php
-                                $victim = new Victim($apiUrl);
-                                $victim->getVictLocalised();
-                            ?>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                                <th>Nom</th>
-                                <th>Prénom</th>
-                                <th>Téléphone</th>
-                                <th>Age</th>
-                                <th>Sexe</th>
-                                <th>Edition</th>
-                            </tr>
-                            </tfoot>
-                        </table>
-
-                    </div>
-                    <!-- /.box-body -->
-                </div>
-                <!-- /.box -->
-            </div>
-            <!-- /.col -->
-        </div>
-    </section>
-    <!-- /.content -->
-</div>
 
 <?php include $adminFolder . '/footer.php'; ?>
 
