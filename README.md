@@ -12,8 +12,10 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + php5-json
 + mysql-serveur
 + php5-curl
++ npm
 
 ###Langages utilisés:
++ PHP
 + HTML5
 + HTML
 + CSS
