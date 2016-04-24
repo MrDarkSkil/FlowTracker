@@ -294,6 +294,32 @@
                 "status":404,
                 "msg":"Il manque des parametres !"
           }</pre>
+        <ul>
+            <li>Récupérer la list des victimes</li>
+        </ul>
+        <h1> Requete: <b>/getAllVict.php</b> POST</h1><br>
+        <pre class="requete"> Parametre:<font color="red"><br><br> "token" : "hi8Viiyf43fgr765Rhfb"</br></font></pre>
+        En cas de réussite:
+      <pre class="prettyprint">
+          {
+                "status":42,
+                "msg":"Donnees suivantes !",
+                "taille":"2",                      //Nombre d'utilisateurs trouvé
+                "0":"kopf97uigiFEGdiyGE5ih35id",   //User Token N°1
+                "1":"lfkj3948jodiohFEF34GET3Sf"    //User Token N°2
+          }</pre>
+        En cas de mauvais token:
+      <pre class="prettyprint">
+          {
+                "status":202,
+                "msg":"Mauvais token !"
+          }</pre>
+        En cas de champ manquant:
+      <pre class="prettyprint">
+          {
+                "status":404,
+                "msg":"Il manque des parametres !"
+          }</pre>
         <hr>
         <h3 id="edit"> Edit</h3>
         <ul>
