@@ -69,7 +69,7 @@ class Victim
     {
         if (self::$isInit == 1)
         {
-            $url = self::$apiUrl . "addVict.php";
+            $url = self::$apiUrl . "editVict.php";
             $fields = array(
                 'token' => urlencode($_SESSION['token']),
                 'token_vict' => urlencode($_POST['token_vict']),
