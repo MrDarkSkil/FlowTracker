@@ -54,7 +54,7 @@ class Victim
            $json = self::request($url, $fields);
 
            /** Redirect */
-           header ("location: /admin/victim/addVictim.php?msg=". $json->{'msg'}."&code=".$json->{'status'});
+           header ("location: /admin/victim/add.php?msg=". $json->{'msg'}."&code=".$json->{'status'});
            exit();
        }
    }
