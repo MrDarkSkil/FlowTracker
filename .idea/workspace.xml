@@ -59,11 +59,11 @@
         <entry file="file://$PROJECT_DIR$/class/Victim.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8865154">
-              <caret line="179" column="78" selection-start-line="179" selection-start-column="78" selection-end-line="179" selection-end-column="78" />
+              <caret line="179" column="47" selection-start-line="179" selection-start-column="47" selection-end-line="179" selection-end-column="47" />
               <folding>
-                <marker date="1461534324372" expanded="true" signature="2874:3183" placeholder="..." />
-                <marker date="1461534324372" expanded="true" signature="4154:4463" placeholder="..." />
-                <marker date="1461534324372" expanded="true" signature="5416:5725" placeholder="..." />
+                <marker date="1461534370946" expanded="true" signature="2874:3183" placeholder="..." />
+                <marker date="1461534370946" expanded="true" signature="4154:4463" placeholder="..." />
+                <marker date="1461534370946" expanded="true" signature="5416:5725" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -345,12 +345,6 @@
       <created>1461278332113</created>
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Change API request getSessionInfo&#10;">
-      <created>1461281218371</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1461281218371</updated>
     </task>
     <task id="LOCAL-00010" summary="Change logOut system">
       <created>1461281498407</created>
@@ -640,7 +634,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461534234265</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="[*]  Update search page &#10;&#10;&#10;&#10;&#10;">
+      <created>1461534335146</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1461534335146</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1110,11 +1110,11 @@
     <entry file="file://$PROJECT_DIR$/class/Victim.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8865154">
-          <caret line="179" column="78" selection-start-line="179" selection-start-column="78" selection-end-line="179" selection-end-column="78" />
+          <caret line="179" column="47" selection-start-line="179" selection-start-column="47" selection-end-line="179" selection-end-column="47" />
           <folding>
-            <marker date="1461534324372" expanded="true" signature="2874:3183" placeholder="..." />
-            <marker date="1461534324372" expanded="true" signature="4154:4463" placeholder="..." />
-            <marker date="1461534324372" expanded="true" signature="5416:5725" placeholder="..." />
+            <marker date="1461534370946" expanded="true" signature="2874:3183" placeholder="..." />
+            <marker date="1461534370946" expanded="true" signature="4154:4463" placeholder="..." />
+            <marker date="1461534370946" expanded="true" signature="5416:5725" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -175,9 +175,9 @@ class Victim
                 if ($state == "0")
                     echo '<td><font color="red">Non localisé</font></td>';
                 else if ($state == "1")
-                    echo '<td><font color="yellow">Localisé</font></td>';
+                    echo '<td><font color="green">Localisé</font></td>';
                 else
-                    echo '<td><font color="green">Pris en charge</font></td>';
+                    echo '<td><font color="blue">Pris en charge</font></td>';
                 echo '<td><a href="/admin/victim/edit.php?victToken=' .$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
                 $i++;
             }
