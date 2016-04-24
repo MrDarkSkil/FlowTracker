@@ -63,6 +63,7 @@
             <th>Téléphone</th>
             <th>Age</th>
             <th>Sexe</th>
+            <th>localisé ?</th>
             <th>Edition</th>
           </tr>
           </thead>
@@ -79,6 +80,7 @@
             <th>Téléphone</th>
             <th>Age</th>
             <th>Sexe</th>
+            <th>localisé ?</th>
             <th>Edition</th>
           </tr>
           </tfoot>
