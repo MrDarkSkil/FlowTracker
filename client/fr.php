@@ -127,16 +127,13 @@ else
 
 if (time_past($start_time) < 5)
 {?>
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
     <div class="container">
         <div class="page-header">
-            <h1>Simple Ajax Uploader</h1>
-            <h3>Basic Example</h3>
+            <h1>Envoyer une photo</h1>
         </div>
         <div class="row" style="padding-top:10px;">
             <div class="col-xs-2">
-                <button id="uploadBtn" class="btn btn-large btn-primary">Choose File</button>
+                <button id="uploadBtn" class="btn btn-large btn-primary">Prendre une photo</button>
             </div>
             <div class="col-xs-10">
                 <div id="progressOuter" class="progress progress-striped active" style="display:none;">
@@ -196,7 +193,7 @@ if (time_past($start_time) < 5)
                     }
 
                     if ( response.success === true ) {
-                        msgBox.innerHTML = '<strong>' + escapeTags( filename ) + '</strong>' + ' successfully uploaded.';
+                        msgBox.innerHTML = '<strong>' + escapeTags( filename ) + '</strong>' + ' envoyé avec succès.';
 
                     } else {
                         if ( response.msg )  {
@@ -214,6 +211,8 @@ if (time_past($start_time) < 5)
             });
         };
     </script>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/styles.css" rel="stylesheet">
 <?php
 }
 else
