@@ -1,9 +1,9 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '/test/extras/Uploader.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/class/uploader/Uploader.php';
 
 // Directory where we're storing uploaded images
 // Remember to set correct permissions or it won't work
-$upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/images/';
+$upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/images/upload/';
 
 $uploader = new FileUpload('uploadfile');
 
