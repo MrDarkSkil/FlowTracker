@@ -118,7 +118,7 @@ function    time_past($start)
 
 if (time_past($start_time) < 3)
 {
-    echo "<iframe width=\"100%\" height=\"683\" frameborder=\"no\" scrolling=\"no\" src=\"/chat/?logout=true\"></iframe>";
+    echo '<iframe width="100%" height="683" frameborder="no" scrolling="no" src="/chat/?logout=true"></iframe>';
 }
 else
 {
@@ -127,7 +127,11 @@ else
 
 if (time_past($start_time) < 5)
 {
-    //envoie de photos
+    echo '<script src="/assets/js/dropzone.js"></script>
+          <form action="/file-upload"
+            class="dropzone"
+            id="my-awesome-dropzone"></form>
+          ';
 }
 else
 {
