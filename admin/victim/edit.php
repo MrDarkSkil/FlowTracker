@@ -59,6 +59,17 @@ $victime = new Victim($apiUrl);
             <h4><i class="icon fa fa-ban"></i> Attention</h4>
             Token utilisateur incorrect.
         </div>';}?>
+        <?php
+        if (isset($_GET['msg']) && isset($_GET['code']))
+        {
+            if ($_GET['code'] == "202" || $_GET['code'] == "404")
+                echo '<br><div class="alert alert-danger"><strong>'.$_GET['msg'].'</strong></div>';
+            else if ($_GET['code'] == "42")
+                echo '<br><div class="alert alert-success"><strong>'.$_GET['msg'].'</strong></div>';
+            else
+                echo '<br><div class="alert alert-success"><strong>'.$_GET['msg'].'</strong></div>';
+        }
+        ?>
         <div class="row">
             <div class="col-md-3">
                 <div class="box box-primary">
@@ -103,14 +114,16 @@ $victime = new Victim($apiUrl);
                     </ul>
                     <div class="tab-content">
                         <div class="active tab-pane" id="map">
-                            <?php if ($victime->getVictInfo($_GET['victToken'], "traitement") != "0"){?>
-                            <iframe width=100% height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=2.077789306640625 %2C 48.64198358792223 %2C 2.6030731201171875 %2C 49.025262501613014&amp;layer=mapnik&amp;marker=<?php echo $victime->getVictInfo($_GET['victToken'], "latitude");?>%2C <?php echo $victime->getVictInfo($_GET['victToken'], "longitude");?> style="border: 1px solid black"></iframe>
-                            <?php
+                            <?php if ($victime->getVictInfo($_GET['victToken'], "traitement") != "0") { ?>
+                                <iframe width=100% height="500" frameborder="0" scrolling="no" marginheight="0"
+                                        marginwidth="0"
+                                        src="http://www.openstreetmap.org/export/embed.html?bbox=2.077789306640625 %2C 48.64198358792223 %2C 2.6030731201171875 %2C 49.025262501613014&amp;layer=mapnik&amp;marker=<?php echo $victime->getVictInfo($_GET['victToken'], "latitude"); ?>%2C <?php echo $victime->getVictInfo($_GET['victToken'], "longitude"); ?> style="
+                                        border: 1px solid black"></iframe>
+                                <?php
                             }
                             else
-                            {
                                 echo "<center><img src='http://applications.eumedgrid.eu/sonification-portlet/images/Warning.png'></center>";
-                            }?>
+                            ?>
 
                     </div>
 
