@@ -63,28 +63,33 @@ $victime = new Victim($apiUrl);
             <div class="col-md-3">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
-                        <h3 class="profile-username text-center"><?php echo $victime->getVictInfo($_GET['victToken'], "nom"); echo " "; echo $victime->getVictInfo($_GET['victToken'], "prenom");?></h3>
-
+                        <h3 class="profile-username text-center"
+                        <?php echo $victime->getVictInfo($_GET['victToken'], "nom"); echo " "; echo $victime->getVictInfo($_GET['victToken'], "prenom");?>
+                        </h3>
                         <label>Nom</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "nom");?></br>
-
                         <label>Prenom</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "prenom");?></br>
-
                         <label>Sexe</label>
                         <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "Homme";} else {echo "Femme";};?></br>
-
                         <label>Age de la Victime</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "age");?></br>
-
                         <label>Nombre de Victime</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "nombre");?></br>
-
                         <label>Numero de telephone</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "telephone");?></br>
-
                         <label>Commentaire</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></br>
+                        <label>Etat</label>
+                        <?php
+                            $state = $victime->getVictInfo($json->{$i}, "traitement"); //Etat de la prise en charge de la victime;  0 = Non localisé ; 1 = Localisé; 2 = Pris en charge
+                            if ($state == "0")
+                              echo '<font color="red">Non localisé</font>';
+                            else if ($state == "1")
+                              echo '<font color="green">Localisé</font>';
+                            else
+                              echo '<font color="blue">Pris en charge</font>';
+                        ?>
                     </div>
                     <!-- /.box-body -->
                 </div>

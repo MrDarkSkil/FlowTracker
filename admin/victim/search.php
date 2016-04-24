@@ -69,8 +69,8 @@
           </thead>
           <tbody>
           <?php
-          $victim = new Victim($apiUrl);
-          $victim->getAllVict();
+              $victim = new Victim($apiUrl);
+              $victim->getAllVict();
           ?>
           </tbody>
           <tfoot>

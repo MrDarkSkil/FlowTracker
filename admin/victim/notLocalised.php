@@ -68,8 +68,8 @@
                     </thead>
                     <tbody>
                     <?php
-                    $victim = new Victim($apiUrl);
-                    $victim->getVictNotLocalised();
+                        $victim = new Victim($apiUrl);
+                        $victim->getVictNotLocalised();
                     ?>
                     </tbody>
                     <tfoot>

@@ -8,7 +8,7 @@
  */
 
 include_once $_SERVER['DOCUMENT_ROOT'] . '/config/config.php';
-require_once $webDir . '/class/Session.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/class/Session.php';
 
 if (isset($_POST["action"]))
 {
@@ -18,6 +18,11 @@ if (isset($_POST["action"]))
             $victime = new Victim($apiUrl);
             Session::start();
             $victime->addVict();
+            break;
+        case "editVict":
+            $victime = new Victim($apiUrl);
+            Session::start();
+            $victime->editVict();
             break;
     }
 }
@@ -59,6 +64,33 @@ class Victim
        }
        header ("location: /admin/victim/add.php?msg=Error&code=404");
    }
+
+    public static function editVict()
+    {
+        if (isset($_POST['lastname']) && isset($_POST['firstname']) && isset($_POST['genre']) && isset($_POST['age']) &&
+            isset($_POST['nombre']) && isset($_POST['phone']) && isset($_POST['commentaire']) && isset($_POST['token_vict']) && self::$isInit == 1)
+        {
+            $url = self::$apiUrl . "addVict.php";
+            $fields = array(
+                'token' => urlencode($_SESSION['token']),
+                'nom' => urlencode($_POST['lastname']),
+                'prenom' => urlencode($_POST['firstname']),
+                'nombre' => urlencode($_POST['nombre']),
+                'age' => urlencode($_POST['age']),
+                'genre' => urlencode($_POST['genre']),
+                'telephone' => urlencode($_POST['phone']),
+                'commentaire' => urlencode($_POST['commentaire'])
+            );
+
+            /** @var Lanch request $json */
+            $json = self::request($url, $fields);
+
+            /** Redirect */
+            header ("location: /admin/victim/edit.php?victToken=". $_POST['token_vict']."&msg=".$json->{'msg'}."&code=". $json->{'status'});
+            exit();
+        }
+        header ("location: /admin/victim/edit.php?msg=Error&code=404");
+    }
 
     public static function getVictInfo($victToken, $search)
     {
