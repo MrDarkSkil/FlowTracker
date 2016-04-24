@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/edit.php" afterPath="$PROJECT_DIR$/admin/victim/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/Victim.php" afterPath="$PROJECT_DIR$/class/Victim.php" />
     </list>
     <ignored path="FlowTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +24,7 @@
     <favorites_list name="FlowTracker" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.50572914">
       <split-first>
         <leaf>
           <file leaf-file-name="localised.php" pinned="false" current-in-tab="false">
@@ -73,11 +73,11 @@
             <entry file="file://$PROJECT_DIR$/class/Victim.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-39.672726">
-                  <caret line="163" column="29" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
+                  <caret line="161" column="29" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
                   <folding>
-                    <marker date="1461536163523" expanded="true" signature="4369:4678" placeholder="..." />
-                    <marker date="1461536163523" expanded="true" signature="5649:5958" placeholder="..." />
-                    <marker date="1461536163523" expanded="true" signature="6911:7220" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="4120:4429" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="5400:5709" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="6662:6971" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -136,12 +136,12 @@
           <file leaf-file-name="Victim.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/Victim.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.2197309">
-                  <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.25672644">
+                  <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
                   <folding>
-                    <marker date="1461536163523" expanded="true" signature="4369:4678" placeholder="..." />
-                    <marker date="1461536163523" expanded="true" signature="5649:5958" placeholder="..." />
-                    <marker date="1461536163523" expanded="true" signature="6911:7220" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="4120:4429" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="5400:5709" placeholder="..." />
+                    <marker date="1461536403099" expanded="true" signature="6662:6971" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -202,8 +202,8 @@
         <option value="$PROJECT_DIR$/admin/victim/search.php" />
         <option value="$PROJECT_DIR$/admin/victim/notLocalised.php" />
         <option value="$PROJECT_DIR$/admin/victim/add.php" />
-        <option value="$PROJECT_DIR$/class/Victim.php" />
         <option value="$PROJECT_DIR$/admin/victim/edit.php" />
+        <option value="$PROJECT_DIR$/class/Victim.php" />
       </list>
     </option>
   </component>
@@ -380,12 +380,6 @@
       <created>1461278332113</created>
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Center pointeur on map&#10;">
-      <created>1461284143679</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1461284143679</updated>
     </task>
     <task id="LOCAL-00021" summary="Center pointeur on map&#10;">
       <created>1461284148333</created>
@@ -675,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461536250185</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="[*]  First test edit&#10;">
+      <created>1461536365026</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1461536365026</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1162,24 +1162,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Victim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.672726">
-          <caret line="163" column="29" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
-          <folding>
-            <marker date="1461536163523" expanded="true" signature="4369:4678" placeholder="..." />
-            <marker date="1461536163523" expanded="true" signature="5649:5958" placeholder="..." />
-            <marker date="1461536163523" expanded="true" signature="6911:7220" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57174885">
           <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
           <folding>
             <marker date="1461536359101" expanded="true" signature="2744:2967" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Victim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25672644">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding>
+            <marker date="1461536403099" expanded="true" signature="4120:4429" placeholder="..." />
+            <marker date="1461536403099" expanded="true" signature="5400:5709" placeholder="..." />
+            <marker date="1461536403099" expanded="true" signature="6662:6971" placeholder="..." />
           </folding>
         </state>
       </provider>

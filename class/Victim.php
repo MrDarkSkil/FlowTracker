@@ -67,9 +67,7 @@ class Victim
 
     public static function editVict()
     {
-        if (isset($_POST['lastname']) && isset($_POST['firstname']) && isset($_POST['genre']) && isset($_POST['age']) &&
-            isset($_POST['nombre']) && isset($_POST['phone']) && isset($_POST['commentaire']) && isset($_POST['token_vict']) &&
-            self::$isInit == 1)
+        if (self::$isInit == 1)
         {
             $url = self::$apiUrl . "addVict.php";
             $fields = array(
