@@ -1,64 +1,21 @@
 {
-  "name": "blueimp-file-upload",
-  "version": "9.12.3",
-  "title": "jQuery File Upload",
-  "description": "File Upload widget with multiple file selection, drag&amp;drop support, progress bar, validation and preview images.",
+  "name": "simple-ajax-uploader",
+  "description": "A Javascript plugin for cross-browser Ajax file uploading. Supports drag and drop, CORS, and multiple file uploading with progress bars. Works in IE7-9, mobile, and all modern browsers.",
+  "version": "2.5.5",
+  "main": "SimpleAjaxUploader.js",
   "keywords": [
-    "jquery",
-    "file",
+    "ajax",
     "upload",
-    "widget",
-    "multiple",
-    "selection",
-    "drag",
-    "drop",
-    "progress",
-    "preview",
-    "cross-domain",
-    "cross-site",
-    "chunk",
-    "resume",
-    "gae",
-    "go",
-    "python",
+    "cors",
     "php",
-    "bootstrap"
+    "cross-browser"
   ],
-  "homepage": "https://github.com/blueimp/jQuery-File-Upload",
-  "author": {
-    "name": "Sebastian Tschan",
-    "url": "https://blueimp.net"
-  },
-  "maintainers": [
+  "repository": [
     {
-      "name": "Sebastian Tschan",
-      "url": "https://blueimp.net"
+      "type": "git",
+      "url": "git://github.com:LPology/Simple-Ajax-Uploader.git"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/blueimp/jQuery-File-Upload.git"
-  },
-  "bugs": "https://github.com/blueimp/jQuery-File-Upload/issues",
-  "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.6",
-    "blueimp-tmpl": ">=2.5.4",
-    "blueimp-load-image": ">=1.13.0",
-    "blueimp-canvas-to-blob": ">=2.1.1"
-  },
-  "main": [
-    "js/jquery.fileupload.js"
-  ],
-  "ignore": [
-    "/*.*",
-    "/cors",
-    "css/demo-ie8.css",
-    "css/demo.css",
-    "css/style.css",
-    "js/app.js",
-    "js/main.js",
-    "server",
-    "test"
-  ]
+  "homepage": "https://github.com/LPology/Simple-Ajax-Uploader",
+  "license": "MIT"
 }
