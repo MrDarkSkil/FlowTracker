@@ -129,9 +129,9 @@ $victime = new Victim($apiUrl);
 
                                     <label>Prenom</label>
                                     <input type="text" class="form-control" name="firstname" placeholder="Prenom" value="<?php echo $victime->getVictInfo($_GET['victToken'], "prenom");?>">
-                                    <div class="form-group" name="genre">
+                                    <div class="form-group">
                                         <label for="sel1">Sexe</label>
-                                        <select class="form-control" id="sel1">
+                                        <select name="genre" class="form-control" id="sel1">
                                             <option value="0" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "selected";};?>>Homme</option>
                                             <option value="1" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "1") {echo "selected";};?>>Femme</option>
                                         </select>
