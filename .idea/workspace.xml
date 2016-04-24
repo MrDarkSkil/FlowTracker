@@ -4,9 +4,6 @@
     <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/edit.php" afterPath="$PROJECT_DIR$/admin/victim/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/notLocalised.php" afterPath="$PROJECT_DIR$/admin/victim/notLocalised.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/search.php" afterPath="$PROJECT_DIR$/admin/victim/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/Victim.php" afterPath="$PROJECT_DIR$/class/Victim.php" />
     </list>
     <ignored path="FlowTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +58,10 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74899864">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.24966623">
+              <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
               <folding>
-                <marker date="1461535017921" expanded="true" signature="2744:2967" placeholder="..." />
+                <marker date="1461535061458" expanded="true" signature="2744:2967" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -362,12 +359,6 @@
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
     </task>
-    <task id="LOCAL-00012" summary="Change class Vitim">
-      <created>1461281835050</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1461281835050</updated>
-    </task>
     <task id="LOCAL-00013" summary="Center pointeur on map&#10;">
       <created>1461282120213</created>
       <option name="number" value="00013" />
@@ -656,7 +647,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461534420425</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;">
+      <created>1461535034630</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1461535034630</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +713,8 @@
     <MESSAGE value="[*]  Resolv bug&#10;&#10;&#10;&#10;" />
     <MESSAGE value="[*]  Add required acception&#10;&#10;&#10;&#10;&#10;" />
     <MESSAGE value="[*]  Update search page &#10;&#10;&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[*]  Update search page &#10;&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1132,10 +1130,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74899864">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.24966623">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
           <folding>
-            <marker date="1461535017921" expanded="true" signature="2744:2967" placeholder="..." />
+            <marker date="1461535061458" expanded="true" signature="2744:2967" placeholder="..." />
           </folding>
         </state>
       </provider>

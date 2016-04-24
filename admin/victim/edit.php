@@ -63,9 +63,7 @@ $victime = new Victim($apiUrl);
             <div class="col-md-3">
                 <div class="box box-primary">
                     <div class="box-body box-profile">
-                        <h3 class="profile-username text-center"
-                        <?php echo $victime->getVictInfo($_GET['victToken'], "nom"); echo " "; echo $victime->getVictInfo($_GET['victToken'], "prenom");?>
-                        </h3>
+                        <h3 class="profile-username text-center"><?php echo $victime->getVictInfo($_GET['victToken'], "nom"); echo " "; echo $victime->getVictInfo($_GET['victToken'], "prenom");?></h3>
                         <label>Nom</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "nom");?></br>
                         <label>Prenom</label>
