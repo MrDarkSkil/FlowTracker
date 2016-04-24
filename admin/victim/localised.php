@@ -48,7 +48,7 @@
                 <small>Panneau de contrôle</small>
             </h1>
         </section>
-
+        <br>
         <div class="box">
             <div class="box-header">
                 <h3 class="box-title">Liste des victimes localisées</h3>
