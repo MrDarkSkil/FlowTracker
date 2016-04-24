@@ -110,11 +110,45 @@ class Victim
         }
         return (false);
     }
+
     public static function getVictNotLocalised()
     {
         if (isset($_SESSION['token']) && self::$isInit == 1)
         {
             $url = self::$apiUrl . "getVictNotLocalised.php";
+            $fields = array(
+                'token' => urlencode($_SESSION['token'])
+            );
+
+            /** @var Lanch request $json */
+            $json = self::request($url, $fields);
+
+            /** @var Show result of request $i */
+            $i = '0';
+            $max = $json->{'taille'};
+            while ($i < $max)
+            {
+                echo '<tr>
+                        <td>'.self::getVictInfo($json->{$i}, "nom").'</td>
+                        <td>'.self::getVictInfo($json->{$i}, "prenom").'</td>
+                        <td>'.self::getVictInfo($json->{$i}, "telephone").'</td>
+                        <td>'.self::getVictInfo($json->{$i}, "age").'</td>';
+                if (self::getVictInfo($json->{$i}, "genre") == "0")
+                    echo '<td>Homme</td>';
+                else
+                    echo '<td>Femme</td>';
+                echo '<td><a href="/admin/victim/edit.php?victToken=' .$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
+                $i++;
+            }
+        }
+        return (false);
+    }
+
+    public static function getAllVict()
+    {
+        if (isset($_SESSION['token']) && self::$isInit == 1)
+        {
+            $url = self::$apiUrl . "getAllVict.php";
             $fields = array(
                 'token' => urlencode($_SESSION['token'])
             );

@@ -30,75 +30,74 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-    <?php
+  <?php
 
-        include $_SERVER['DOCUMENT_ROOT'] . "/admin/header.php";
-        include $_SERVER['DOCUMENT_ROOT'] . "/admin/sidebar.php";
+  include $_SERVER['DOCUMENT_ROOT'] .  '/config/config.php';
+  include $adminFolder . '/header.php';
+  include $adminFolder . '/sidebar.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/class/Victim.php';
 
-    ?>
+  ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Recherche de victime
+        Liste des victimes localisées
         <small>Panneau de contrôle</small>
       </h1>
     </section>
-
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">Rechercher une victime</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 4.0
-                  </td>
-                  <td>Win 95+</td>
-                  <td> 4</td>
-                  <td>X</td>
-                </tr>
-                </tbody>
-                <tfoot>
-                <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
-                </tr>
-                </tfoot>
-              </table>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
+    <br>
+    <div class="box">
+      <div class="box-header">
+        <h3 class="box-title">Liste des victimes localisées</h3>
       </div>
-      <!-- /.row -->
-    </section>
-    <!-- /.content -->
+      <!-- /.box-header -->
+      <div class="box-body">
+        <table id="example1" class="table table-bordered table-striped">
+          <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Téléphone</th>
+            <th>Age</th>
+            <th>Sexe</th>
+            <th>Edition</th>
+          </tr>
+          </thead>
+          <tbody>
+          <?php
+          $victim = new Victim($apiUrl);
+          $victim->getAllVict();
+          ?>
+          </tbody>
+          <tfoot>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Téléphone</th>
+            <th>Age</th>
+            <th>Sexe</th>
+            <th>Edition</th>
+          </tr>
+          </tfoot>
+        </table>
+      </div>
+      <!-- /.box-body -->
+    </div>
+    <!-- /.box -->
   </div>
+  <!-- /.col -->
+</div>
+<!-- /.row -->
+</section>
+<!-- /.content -->
+</div>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/admin/footer.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/admin/footer.php';?>
 
-  <div class="control-sidebar-bg"></div>
+<div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
 

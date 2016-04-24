@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/getAllVict.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/victim/savelocalised.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/localised.php" afterPath="$PROJECT_DIR$/admin/victim/localised.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/notLocalised.php" afterPath="$PROJECT_DIR$/admin/victim/notLocalised.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/search.php" afterPath="$PROJECT_DIR$/admin/victim/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/Victim.php" afterPath="$PROJECT_DIR$/class/Victim.php" />
     </list>
     <ignored path="FlowTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,141 +28,78 @@
     <favorites_list name="FlowTracker" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-19.115385">
-                  <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="data.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/theme/pages/tables/data.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.65384614">
-                  <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1604" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-31.884615">
-                  <caret line="122" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-                  <folding>
-                    <marker date="1461531578890" expanded="true" signature="1249:1434" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1498:3364" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1520:3364" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1754:3362" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1833:1943" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1844:1928" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1944:3258" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1944:3294" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1944:3330" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="1972:3218" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2009:2092" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2161:3169" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2240:3150" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2264:2529" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2285:2504" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2553:2838" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2574:2813" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2632:2697" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2862:3127" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="2883:3102" placeholder="..." />
-                    <marker date="1461531578890" expanded="true" signature="4227:4267" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="localised.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.529595">
-                  <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Victim.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/class/Victim.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="34.653847">
-                  <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-                  <folding>
-                    <marker date="1461530393931" expanded="true" signature="2810:3119" placeholder="..." />
-                    <marker date="1461530393931" expanded="true" signature="4089:4398" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="savelocalised.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="7.8461537">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="notLocalised.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-20.961538">
-                  <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/sidebar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-18.307692">
-                  <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="savelocalised.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41744548">
-                  <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="localised.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.884615">
+              <caret line="35" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notLocalised.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8846154">
+              <caret line="62" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.269231">
+              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Victim.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/Victim.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.730769">
+              <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+              <folding>
+                <marker date="1461533096346" expanded="true" signature="2810:3119" placeholder="..." />
+                <marker date="1461533096346" expanded="true" signature="4090:4399" placeholder="..." />
+                <marker date="1461533096346" expanded="true" signature="5352:5661" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getVictLocalised.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/getVictLocalised.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="28" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <marker date="1461443747958" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
+                <marker date="1461443747958" expanded="true" signature="420:468" placeholder="SELECT token... victime" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAllVict.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/getAllVict.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45393857">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <marker date="1461533135174" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
+                <marker date="1461533135174" expanded="true" signature="420:453" placeholder="SELECT token... victime" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,7 +121,6 @@
         <option value="$PROJECT_DIR$/class/REST.php" />
         <option value="$PROJECT_DIR$/class/Rest.php" />
         <option value="$PROJECT_DIR$/class/Session.php" />
-        <option value="$PROJECT_DIR$/class/Victim.php" />
         <option value="$PROJECT_DIR$/admin/victim/editVict.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/admin/victim/addVictim.php" />
@@ -204,9 +144,13 @@
         <option value="$PROJECT_DIR$/client/fr.php" />
         <option value="$PROJECT_DIR$/API/addVict.php" />
         <option value="$PROJECT_DIR$/admin/sidebar.php" />
-        <option value="$PROJECT_DIR$/admin/victim/search.php" />
         <option value="$PROJECT_DIR$/admin/victim/savelocalised.php" />
         <option value="$PROJECT_DIR$/admin/victim/localised.php" />
+        <option value="$PROJECT_DIR$/admin/dist/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/admin/victim/notLocalised.php" />
+        <option value="$PROJECT_DIR$/admin/victim/search.php" />
+        <option value="$PROJECT_DIR$/class/Victim.php" />
+        <option value="$PROJECT_DIR$/API/getAllVict.php" />
       </list>
     </option>
   </component>
@@ -220,10 +164,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="102" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="949" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -279,61 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlowTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
+              <option name="myItemId" value="API" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,6 +241,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="victim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -365,11 +273,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\API" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\admin\victim" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\upload" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\class" />
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\images\upload" />
-      <recent name="C:\Users\Hubert Léo\Documents\GitHub\FlowTracker\MailFramework\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leohu\Documents\GitHub\FlowTracker\admin\jointures" />
@@ -708,20 +616,26 @@
       <option name="project" value="LOCAL" />
       <updated>1461532164582</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="[*] Update localised page&#10;&#10;">
+      <created>1461532294133</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1461532294133</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="102" width="1936" height="949" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.170441" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15116279" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -762,155 +676,14 @@
     <MESSAGE value="[*] Add mail link localisation&#10;" />
     <MESSAGE value="[*] Add origin theme source" />
     <MESSAGE value="[*] Prepare search victim&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[*] Prepare search victim&#10;" />
+    <MESSAGE value="[*] Update localised page&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[*] Update localised page&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/countLocalised.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailFramework/class.phpmaileroauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailFramework/class.pop3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/logoutApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019058296">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/loginApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66704035">
-          <caret line="102" column="219" selection-start-line="102" selection-start-column="219" selection-end-line="102" selection-end-column="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailFramework/contents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailFramework/PHPMailerAutoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31390134">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40919283">
-          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26681614">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6105499">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailFramework/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76233184">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019058296">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34304932">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="48.537037">
-          <caret line="89" column="87" selection-start-line="89" selection-start-column="87" selection-end-line="89" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
@@ -1018,6 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,16 +876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
+        <state vertical-scroll-proportion="0.635514">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.961538">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1124,50 +890,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
+    <entry file="file://$PROJECT_DIR$/admin/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.884615">
-          <caret line="122" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6291667">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dist/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024531025">
+          <caret line="0" column="118" selection-start-line="0" selection-start-column="118" selection-end-line="0" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/alerts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/progress-bar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/panels.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/pagination.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/list-group.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/hide-text.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/grid.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/clearfix.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/center-block.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/border-radius.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5803323">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2855228">
+          <caret line="1169" column="26" selection-start-line="1169" selection-start-column="22" selection-end-line="1169" selection-end-column="26" />
           <folding>
-            <marker date="1461531578890" expanded="true" signature="1249:1434" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1498:3364" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1520:3364" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1754:3362" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1833:1943" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1844:1928" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1944:3258" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1944:3294" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1944:3330" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="1972:3218" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2009:2092" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2161:3169" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2240:3150" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2264:2529" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2285:2504" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2553:2838" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2574:2813" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2632:2697" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2862:3127" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="2883:3102" placeholder="..." />
-            <marker date="1461531578890" expanded="true" signature="4227:4267" placeholder="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Victim.php">
+    <entry file="file://$PROJECT_DIR$/admin/build/bootstrap-less/mixins/nav-vertical-align.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="34.653847">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <marker date="1461530393931" expanded="true" signature="2810:3119" placeholder="..." />
-            <marker date="1461530393931" expanded="true" signature="4089:4398" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/savelocalised.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1175,9 +1038,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.529595">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="35" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/victim/notLocalised.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8846154">
+          <caret line="62" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/victim/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.269231">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Victim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.730769">
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <folding>
+            <marker date="1461533096346" expanded="true" signature="2810:3119" placeholder="..." />
+            <marker date="1461533096346" expanded="true" signature="4090:4399" placeholder="..." />
+            <marker date="1461533096346" expanded="true" signature="5352:5661" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/getVictLocalised.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="28" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <marker date="1461443747958" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
+            <marker date="1461443747958" expanded="true" signature="420:468" placeholder="SELECT token... victime" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/getAllVict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45393857">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <marker date="1461533135174" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
+            <marker date="1461533135174" expanded="true" signature="420:453" placeholder="SELECT token... victime" />
+          </folding>
         </state>
       </provider>
     </entry>
