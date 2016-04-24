@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;">
+    <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/add.php" afterPath="$PROJECT_DIR$/admin/victim/add.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/victim/edit.php" afterPath="$PROJECT_DIR$/admin/victim/edit.php" />
     </list>
     <ignored path="FlowTracker.iws" />
@@ -55,13 +56,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22696929">
-              <caret line="124" column="145" selection-start-line="124" selection-start-column="145" selection-end-line="124" selection-end-column="145" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="137" selection-end-column="42" />
               <folding>
-                <marker date="1461535355487" expanded="true" signature="2744:2967" placeholder="..." />
+                <marker date="1461535402122" expanded="true" signature="2744:2967" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -70,8 +71,8 @@
       <file leaf-file-name="Victim.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/Victim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.909091">
-              <caret line="211" column="77" selection-start-line="205" selection-start-column="16" selection-end-line="211" selection-end-column="77" />
+            <state vertical-scroll-proportion="-38.745453">
+              <caret line="161" column="29" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
               <folding>
                 <marker date="1461534829966" expanded="true" signature="4297:4606" placeholder="..." />
                 <marker date="1461534829966" expanded="true" signature="5577:5886" placeholder="..." />
@@ -117,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/victim/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.22696929">
+              <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -177,11 +178,11 @@
         <option value="$PROJECT_DIR$/admin/dist/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/API/getAllVict.php" />
         <option value="$PROJECT_DIR$/API/index.php" />
-        <option value="$PROJECT_DIR$/admin/victim/add.php" />
         <option value="$PROJECT_DIR$/class/Victim.php" />
         <option value="$PROJECT_DIR$/admin/victim/search.php" />
         <option value="$PROJECT_DIR$/admin/victim/notLocalised.php" />
         <option value="$PROJECT_DIR$/admin/victim/edit.php" />
+        <option value="$PROJECT_DIR$/admin/victim/add.php" />
       </list>
     </option>
   </component>
@@ -358,12 +359,6 @@
       <created>1461278332113</created>
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Center pointeur on map&#10;">
-      <created>1461283127992</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1461283127992</updated>
     </task>
     <task id="LOCAL-00015" summary="Center pointeur on map&#10;">
       <created>1461283241110</created>
@@ -653,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461535073073</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[*]  Prepare Edit victime&#10;">
+      <created>1461535370343</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1461535370343</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,7 +715,8 @@
     <MESSAGE value="[*]  Add required acception&#10;&#10;&#10;&#10;&#10;" />
     <MESSAGE value="[*]  Update search page &#10;&#10;&#10;&#10;&#10;" />
     <MESSAGE value="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[*]  Prepare Edit victime&#10;&#10;&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="[*]  Prepare Edit victime&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[*]  Prepare Edit victime&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1054,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.454545">
-          <caret line="323" column="32" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/localised.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077">
@@ -1086,14 +1080,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Victim.php">
+    <entry file="file://$PROJECT_DIR$/API/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.909091">
-          <caret line="211" column="77" selection-start-line="205" selection-start-column="16" selection-end-line="211" selection-end-column="77" />
+        <state vertical-scroll-proportion="-8.454545">
+          <caret line="323" column="32" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/getAllVict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
           <folding>
-            <marker date="1461534829966" expanded="true" signature="4297:4606" placeholder="..." />
-            <marker date="1461534829966" expanded="true" signature="5577:5886" placeholder="..." />
-            <marker date="1461534829966" expanded="true" signature="6839:7148" placeholder="..." />
+            <marker date="1461533135174" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
+            <marker date="1461533135174" expanded="true" signature="420:453" placeholder="SELECT token... victime" />
           </folding>
         </state>
       </provider>
@@ -1109,32 +1110,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/getAllVict.php">
+    <entry file="file://$PROJECT_DIR$/class/Victim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        <state vertical-scroll-proportion="-38.745453">
+          <caret line="161" column="29" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
           <folding>
-            <marker date="1461533135174" expanded="true" signature="209:253" placeholder="SELECT * FRO... session" />
-            <marker date="1461533135174" expanded="true" signature="420:453" placeholder="SELECT token... victime" />
+            <marker date="1461534829966" expanded="true" signature="4297:4606" placeholder="..." />
+            <marker date="1461534829966" expanded="true" signature="5577:5886" placeholder="..." />
+            <marker date="1461534829966" expanded="true" signature="6839:7148" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <marker date="1461535402122" expanded="true" signature="2744:2967" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/victim/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/victim/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22696929">
-          <caret line="124" column="145" selection-start-line="124" selection-start-column="145" selection-end-line="124" selection-end-column="145" />
-          <folding>
-            <marker date="1461535355487" expanded="true" signature="2744:2967" placeholder="..." />
-          </folding>
+          <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>

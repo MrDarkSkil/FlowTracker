@@ -71,7 +71,7 @@ include $adminFolder . '/sidebar.php';
         <div class="box-body">
             <form role="form" action="/class/Victim.php" method="post">
                 <!-- text input -->
-                <div class="form-group" action="/class/victime.php" method="post" name="addVictime">
+                <div class="form-group" action="/class/victime.php" method="get" name="addVictime">
 
                     <label>Nom</label>
                     <input type="text" class="form-control" name="lastname" placeholder="Nom" required>
@@ -79,12 +79,12 @@ include $adminFolder . '/sidebar.php';
                     <label>Prenom</label>
                     <input type="text" class="form-control" name="firstname" placeholder="Prenom" required>
 
-                    <label>Sexe</label>
-                    <div class="radio">
-                    <label><input type="radio" name="genre" id="gene_male" value="male">Homme</label>
-                    </div>
-                    <div class="radio">
-                    <label><input type="radio" name="genre" id="genre_female" value="female">Femme</label>
+                    <div class="form-group">
+                        <label for="sel1">Sexe</label>
+                        <select name="genre" class="form-control" id="sel1">
+                            <option value="0" selected>Homme</option>
+                            <option value="1">Femme</option>
+                        </select>
                     </div>
                     <label>Age de la Victime</label>
                     <input type="number" class="form-control" min="0" name="age" required>
