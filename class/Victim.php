@@ -72,7 +72,7 @@ class Victim
             $url = self::$apiUrl . "addVict.php";
             $fields = array(
                 'token' => urlencode($_SESSION['token']),
-                'token' => urlencode($_POST['token_vict']),
+                'token_vict' => urlencode($_POST['token_vict']),
                 'nom' => urlencode($_POST['lastname']),
                 'prenom' => urlencode($_POST['firstname']),
                 'nombre' => urlencode($_POST['nombre']),

@@ -31,7 +31,7 @@ if (isset($_POST['token']) && isset($_POST['token_vict']) && isset($_POST['nom']
             ':telephone' => $_POST['telephone'],
             ':commentaire' => $_POST['commentaire'],
             ':id' => $id));
-        $arr = array('status' => 42, 'msg' => "Victime etide !");
+        $arr = array('status' => 42, 'msg' => "Victime edite !");
     }
     else
     {
