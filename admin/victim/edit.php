@@ -156,6 +156,9 @@ $victime = new Victim($apiUrl);
                                 <div class="box-footer">
                                     <button type="submit" name="action" value="editVict" class="btn btn-primary">Editer la Victime</button>
                                 </div>
+                                <div class="box-footer">
+                                    <button type="submit" name="action" value="editVict" class="btn btn-warning">Valider la prise en charge</button>
+                                </div>
                             </form>
                         </div>
                     </div>
