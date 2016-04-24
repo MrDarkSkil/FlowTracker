@@ -118,9 +118,9 @@ $victime = new Victim($apiUrl);
                             <iframe width="100%" height="683" frameborder="no" scrolling="no" src="/chat/?logout=true"></iframe>
                         </div>
                         <div class="tab-pane" id="settings">
-                            <form role="form">
+                            <form role="form" action="/class/Victime.php" method="post">
                                 <!-- text input -->
-                                <div class="form-group" action="/class/Victime.php" method="post">
+                                <div class="form-group">
                                     <label>Id victime</label>
                                     <input type="text" class="form-control" name="token_vict" placeholder="Nom" value="<?php echo $_GET['victToken'];?>">
 
