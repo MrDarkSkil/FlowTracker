@@ -76,18 +76,19 @@ $victime = new Victim($apiUrl);
                         <?php echo $victime->getVictInfo($_GET['victToken'], "nombre");?></br>
                         <label>Numero de telephone</label>
                         <?php echo $victime->getVictInfo($_GET['victToken'], "telephone");?></br>
-                        <label>Commentaire</label>
-                        <?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></br>
                         <label>Etat</label>
                         <?php
-                            $state = $victime->getVictInfo($json->{$i}, "traitement"); //Etat de la prise en charge de la victime;  0 = Non localisé ; 1 = Localisé; 2 = Pris en charge
-                            if ($state == "0")
-                              echo '<font color="red">Non localisé</font>';
-                            else if ($state == "1")
-                              echo '<font color="green">Localisé</font>';
-                            else
-                              echo '<font color="blue">Pris en charge</font>';
+                        $state = $victime->getVictInfo($json->{$i}, "traitement"); //Etat de la prise en charge de la victime;  0 = Non localisé ; 1 = Localisé; 2 = Pris en charge
+                        if ($state == "0")
+                            echo '<font color="red">Non localisé</font>';
+                        else if ($state == "1")
+                            echo '<font color="green">Localisé</font>';
+                        else
+                            echo '<font color="blue">Pris en charge</font>';
                         ?>
+                        <br>
+                        <label>Commentaire</label>
+                        <?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></br>
                     </div>
                     <!-- /.box-body -->
                 </div>
@@ -119,7 +120,9 @@ $victime = new Victim($apiUrl);
                         <div class="tab-pane" id="settings">
                             <form role="form">
                                 <!-- text input -->
-                                <div class="form-group" action="/class/victime.php" method="post" name="editVictime">
+                                <div class="form-group" action="/class/Victime.php" method="post">
+                                    <label>Id victime</label>
+                                    <input type="text" class="form-control" name="lastname" placeholder="Nom" value="<?php echo $_POST['victToken'];?>">
 
                                     <label>Nom</label>
                                     <input type="text" class="form-control" name="lastname" placeholder="Nom" value="<?php echo $victime->getVictInfo($_GET['victToken'], "nom");?>">
@@ -129,11 +132,12 @@ $victime = new Victim($apiUrl);
 
                                     <label>Sexe</label>
 
-                                    <div class="radio">
-                                        <label><input type="radio" name="genre" id="gene_male" value="male" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "checked";};?>>Homme</label>
-                                    </div>
-                                    <div class="radio">
-                                        <label><input type="radio" name="genre" id="genre_female" value="female" <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "1") {echo "checked";};?>>Femme</label>
+                                    <div class="form-group">
+                                        <label for="sel1">Select list:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "0") {echo "selected";};?>>Homme</option>
+                                            <option <?php if ($victime->getVictInfo($_GET['victToken'], "genre") == "1") {echo "selected";};?>>Femme</option>
+                                        </select>
                                     </div>
                                     <label>Age de la Victime</label>
                                     <input type="number" class="form-control" min="0" name="age" value="<?php echo $victime->getVictInfo($_GET['victToken'], "age");?>">
@@ -153,7 +157,7 @@ $victime = new Victim($apiUrl);
                                     <textarea class="form-control" rows="3" placeholder="Enter ..."><?php echo $victime->getVictInfo($_GET['victToken'], "commentaire");?></textarea>
                                 </div>
                                 <div class="box-footer">
-                                    <button type="submit" class="btn btn-primary">Editer la Victime</button>
+                                    <button type="submit" name="action" value="editVict" class="btn btn-primary">Editer la Victime</button>
                                 </div>
                             </form>
                         </div>
