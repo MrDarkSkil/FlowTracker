@@ -71,7 +71,7 @@ include $adminFolder . '/sidebar.php';
         <div class="box-body">
             <form role="form" action="/class/Victim.php" method="post">
                 <!-- text input -->
-                <div class="form-group" action="/class/victime.php" method="get" name="addVictime">
+                <div class="form-group" action="/class/victime.php" method="post" name="addVictime">
 
                     <label>Nom</label>
                     <input type="text" class="form-control" name="lastname" placeholder="Nom" required>
