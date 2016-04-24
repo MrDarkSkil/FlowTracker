@@ -104,7 +104,7 @@ class Victim
                     echo '<td>Homme</td>';
                 else
                     echo '<td>Femme</td>';
-                echo '<td><a href="/admin/victim/editVict.php?victToken='.$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
+                echo '<td><a href="/admin/victim/edit.php?victToken=' .$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
                 $i++;
             }
         }
@@ -136,7 +136,7 @@ class Victim
                     echo '<td>Homme</td>';
                 else
                     echo '<td>Femme</td>';
-                echo '<td><a href="/admin/victim/editVict.php?victToken='.$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
+                echo '<td><a href="/admin/victim/edit.php?victToken=' .$json->{$i}.'"><span class="glyphicon glyphicon-pencil"></span></a></td></tr>';
                 $i++;
             }
         }

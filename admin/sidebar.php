@@ -14,7 +14,8 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="header">Victimes</li>
-            <li><a href="/admin/victim/addVictim.php"><i class="fa fa-circle-o"></i> Ajouter une victime</a></li>
+            <li><a href="/admin/victim/add.php"><i class="fa fa-circle-o"></i> <span>Ajouter une victime</span></a></li>
+            <li><a href="/admin/victim/search.php"><i class="fa fa-circle-o"></i> <span>Rechercher une victime</span></a></li>
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-files-o"></i>
@@ -22,8 +23,8 @@
                     <span class="label label-primary pull-right"><!-- Notification number--></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/admin/victim/localisedVictim.php"><i class="fa fa-circle-o "></i> Localisée</a></li>
-                    <li><a href="/admin/victim/notLocalisedVictim.php"><i class="fa fa-circle-o"></i> Non localisée</a></li>
+                    <li><a href="/admin/victim/localised.php"><i class="fa fa-circle-o "></i> Localisée</a></li>
+                    <li><a href="/admin/victim/notLocalised.php"><i class="fa fa-circle-o"></i> Non localisée</a></li>
                 </ul>
             </li>
         </ul>
