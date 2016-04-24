@@ -30,6 +30,19 @@ function    time_past($start)
 </head>
 <body>
 
+<div class="wrapper style1 first">
+    <article class="container" id="top">
+        <div class="row">
+            <div class="8u 12u(mobile)">
+                <header>
+                    <h1 id="zone">En cours de géolocalisation</h1>
+                </header>
+                <p>Ce message vous indique que votre réseau est suffisamment puissant pour disposer des services supplementaire de secours listé çi dessous.</p>
+            </div>
+        </div>
+    </article>
+</div>
+
 <script>
     var xhr = new XMLHttpRequest();
 
