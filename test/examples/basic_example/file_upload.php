@@ -1,5 +1,5 @@
 <?php
-require(dirname(__FILE__) . '/../../Uploader.php');
+require $_SERVER['DOCUMENT_ROOT'] . '/test/extras/Uploader.php';
 
 // Directory where we're storing uploaded images
 // Remember to set correct permissions or it won't work
