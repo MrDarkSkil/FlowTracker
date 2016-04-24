@@ -74,10 +74,10 @@ include $adminFolder . '/sidebar.php';
                 <div class="form-group" action="/class/victime.php" method="post" name="addVictime">
 
                     <label>Nom</label>
-                    <input type="text" class="form-control" name="lastname" placeholder="Nom">
+                    <input type="text" class="form-control" name="lastname" placeholder="Nom" required>
 
                     <label>Prenom</label>
-                    <input type="text" class="form-control" name="firstname" placeholder="Prenom">
+                    <input type="text" class="form-control" name="firstname" placeholder="Prenom" required>
 
                     <label>Sexe</label>
                     <div class="radio">
@@ -87,10 +87,10 @@ include $adminFolder . '/sidebar.php';
                     <label><input type="radio" name="genre" id="genre_female" value="female">Femme</label>
                     </div>
                     <label>Age de la Victime</label>
-                    <input type="number" class="form-control" min="0" name="age">
+                    <input type="number" class="form-control" min="0" name="age" required>
 
                     <label>Nombre de Victime</label>
-                    <input type="number" class="form-control" min="0" name="nombre">
+                    <input type="number" class="form-control" min="0" name="nombre" required>
 
                     <label>Numero de telephone</label>
                     <div class="input-group">

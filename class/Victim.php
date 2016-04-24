@@ -57,6 +57,7 @@ class Victim
            header ("location: /admin/victim/add.php?msg=". $json->{'msg'}."&code=".$json->{'status'});
            exit();
        }
+       header ("location: /admin/victim/add.php?msg=Error&code=404");
    }
 
     public static function getVictInfo($victToken, $search)
