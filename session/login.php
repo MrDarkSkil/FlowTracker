@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Leo Hubert | Log in</title>
+  <title>FlowTracker | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -27,11 +27,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/index.php"><b>Leo Hubert TRACKER</b> Login</a>
+    <a href="/index.php"><b>FlowTracker</b> Login</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Connectez-vous dès maintenant Léo HUBERT TRACKER</p>
+    <p class="login-box-msg">Connectez-vous dès maintenant</p>
     <?php
       if (isset($_GET['msg']) && isset($_GET['code']))
       {
