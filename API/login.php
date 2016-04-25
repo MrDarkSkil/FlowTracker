@@ -13,12 +13,13 @@ if (isset($_POST['email']) && isset($_POST['password']))
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $requete = $db_trak->prepare('SELECT * FROM user WHERE email = :email');
+    $requete = $db_trak->prepare('SELECT * FROM user WHERE email = :email AND pwd= :pwd');
     $requete->bindParam(':email', $email, PDO::PARAM_STR);
+    $requete->bindParam(':pwd', md5($password), PDO::PARAM_STR);
     $requete->execute();
     $reponse = $requete->fetch();
 
-    if (md5($password) == $reponse['pwd'])
+    if (md5($password) == $reponse['pwd'] && $email == $reponse['email'])
     {
         $requete = $db_trak->prepare('SELECT * FROM session WHERE user_id = :id');
         $requete->bindParam(':id', $reponse['id'], PDO::PARAM_STR);
