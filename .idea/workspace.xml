@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/loginApp.php" afterPath="$PROJECT_DIR$/API/loginApp.php" />
     </list>
     <ignored path="FlowTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,19 +32,6 @@
               <folding>
                 <marker date="1461521230320" expanded="true" signature="463:507" placeholder="SELECT * FRO... session" />
                 <marker date="1461521230320" expanded="true" signature="881:1115" placeholder="INSERT INTO `victime`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editVict.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/editVict.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <marker date="1461536528629" expanded="true" signature="434:478" placeholder="SELECT * FRO... session" />
-                <marker date="1461536528629" expanded="true" signature="710:891" placeholder="UPDATE `vict... " />
               </folding>
             </state>
           </provider>
@@ -89,17 +75,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginApp.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginApp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/loginApp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22869955">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="64" />
+            <state vertical-scroll-proportion="-22.23077">
+              <caret line="39" column="36" selection-start-line="38" selection-start-column="95" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <marker date="1461600971793" expanded="true" signature="275:332" placeholder="SELECT * FRO... aidants" />
                 <marker date="1461600971793" expanded="true" signature="638:682" placeholder="SELECT * FRO... sessionApp" />
                 <marker date="1461600971793" expanded="true" signature="958:1036" placeholder="INSERT INTO `sessionApp`... " />
                 <marker date="1461600971793" expanded="true" signature="1249:1311" placeholder="UPDATE `sess... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.51974523">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -225,10 +221,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-91" />
+    <option name="y" value="754" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,7 +279,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
+              <option name="myItemId" value="session" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,12 +384,6 @@
       <created>1461278332113</created>
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
-    </task>
-    <task id="LOCAL-00029" summary="[*] Add mail link localisation&#10;">
-      <created>1461345677448</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1461345677448</updated>
     </task>
     <task id="LOCAL-00030" summary="[*] Add mail link localisation&#10;">
       <created>1461346036620</created>
@@ -683,11 +673,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461600858213</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="[*] Correct SQL faille">
+      <created>1461601002618</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1461601002618</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-91" y="754" width="1936" height="949" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,13 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MailFramework/class.phpmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.923077">
-          <caret line="122" column="48" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/uploader/cors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1146,14 +1135,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API/loginApp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22869955">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="64" />
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="39" column="36" selection-start-line="38" selection-start-column="95" selection-end-line="39" selection-end-column="36" />
           <folding>
             <marker date="1461600971793" expanded="true" signature="275:332" placeholder="SELECT * FRO... aidants" />
             <marker date="1461600971793" expanded="true" signature="638:682" placeholder="SELECT * FRO... sessionApp" />
             <marker date="1461600971793" expanded="true" signature="958:1036" placeholder="INSERT INTO `sessionApp`... " />
             <marker date="1461600971793" expanded="true" signature="1249:1311" placeholder="UPDATE `sess... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.51974523">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
