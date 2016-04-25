@@ -22,6 +22,7 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + JavaScript
 + Ajax
 + Jquery
++ Ruby
 
 ###Installation:
 + Etape 1 => Installer tous les outils nécessaires sur le serveur et y upload les fichiers.
