@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50871d0b-5f0e-4b94-929c-112f21e73962" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/loginApp.php" afterPath="$PROJECT_DIR$/API/loginApp.php" />
     </list>
     <ignored path="FlowTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,20 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="editUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/editUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1461443747762" expanded="true" signature="377:421" placeholder="SELECT * FRO... session" />
-                <marker date="1461443747762" expanded="true" signature="657:692" placeholder="SELECT * FRO... user" />
-                <marker date="1461443747762" expanded="true" signature="911:1059" placeholder="UPDATE `user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="addVict.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/addVict.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19058296">
+            <state vertical-scroll-proportion="-6.5384617">
               <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
               <folding>
                 <marker date="1461600606466" expanded="true" signature="277:316" placeholder="SELECT * FRO... user" />
@@ -97,6 +84,21 @@
                 <marker date="1461600606466" expanded="true" signature="636:677" placeholder="SELECT * FRO... session" />
                 <marker date="1461600606466" expanded="true" signature="953:1028" placeholder="INSERT INTO `session`... " />
                 <marker date="1461600606466" expanded="true" signature="1241:1300" placeholder="UPDATE `sess... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginApp.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/loginApp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22869955">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="64" />
+              <folding>
+                <marker date="1461600971793" expanded="true" signature="275:332" placeholder="SELECT * FRO... aidants" />
+                <marker date="1461600971793" expanded="true" signature="638:682" placeholder="SELECT * FRO... sessionApp" />
+                <marker date="1461600971793" expanded="true" signature="958:1036" placeholder="INSERT INTO `sessionApp`... " />
+                <marker date="1461600971793" expanded="true" signature="1249:1311" placeholder="UPDATE `sess... " />
               </folding>
             </state>
           </provider>
@@ -209,6 +211,7 @@
         <option value="$PROJECT_DIR$/class/Victim.php" />
         <option value="$PROJECT_DIR$/admin/victim/edit.php" />
         <option value="$PROJECT_DIR$/API/login.php" />
+        <option value="$PROJECT_DIR$/API/loginApp.php" />
       </list>
     </option>
   </component>
@@ -385,12 +388,6 @@
       <created>1461278332113</created>
       <option name="number" value="Default" />
       <updated>1461278332113</updated>
-    </task>
-    <task id="LOCAL-00028" summary="[*] Add mail link localisation&#10;">
-      <created>1461345474263</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1461345474263</updated>
     </task>
     <task id="LOCAL-00029" summary="[*] Add mail link localisation&#10;">
       <created>1461345677448</created>
@@ -680,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461600628583</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="[*] Correct SQL faille">
+      <created>1461600858213</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1461600858213</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,11 +757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/users/default.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MailFramework/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.923077">
@@ -1134,7 +1132,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19058296">
+        <state vertical-scroll-proportion="-6.5384617">
           <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
           <folding>
             <marker date="1461600606466" expanded="true" signature="277:316" placeholder="SELECT * FRO... user" />
@@ -1142,6 +1140,19 @@
             <marker date="1461600606466" expanded="true" signature="636:677" placeholder="SELECT * FRO... session" />
             <marker date="1461600606466" expanded="true" signature="953:1028" placeholder="INSERT INTO `session`... " />
             <marker date="1461600606466" expanded="true" signature="1241:1300" placeholder="UPDATE `sess... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/loginApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22869955">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <marker date="1461600971793" expanded="true" signature="275:332" placeholder="SELECT * FRO... aidants" />
+            <marker date="1461600971793" expanded="true" signature="638:682" placeholder="SELECT * FRO... sessionApp" />
+            <marker date="1461600971793" expanded="true" signature="958:1036" placeholder="INSERT INTO `sessionApp`... " />
+            <marker date="1461600971793" expanded="true" signature="1249:1311" placeholder="UPDATE `sess... " />
           </folding>
         </state>
       </provider>
