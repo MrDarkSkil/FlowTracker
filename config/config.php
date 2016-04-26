@@ -14,6 +14,7 @@ $apiUrl = "http://hackathon.emodyz.com/API/"; /** Lien de l'API */
 $adminFolder = $webDir . "/admin"; /** Destination du panel admin  */
 $classFolder = $webDir . "/class"; /** Destination du dossier de class */
 $serviceName = "Gendarmerie National";
+$devMode = true;   /** Mettre true pour l'envoie du lien par email ou par SMS  */
 
 /** END General settings */
 
