@@ -30,7 +30,7 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + Etape 3 => Importez "database.sql" dans la table que vous venez de créer.
 + Etape 4 => Allez dans "/config/config.php" et configurez les identifiant de connexion à la base de données.
 + Etape 5 => Taper la commande suivante dans votre terminal: 'chown -R www-data:www-data /var/www/html'
-+ Etape 6 => Connectez-vous ! email = "root@root.com"; password = "toor" (sans les doubles côtes !).
++ Etape 6 => Connectez-vous ! email = "root@root.com"; password = "toor" .
 
 ##Suivre le développement de l'application:
 
