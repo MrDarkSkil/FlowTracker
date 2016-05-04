@@ -44,7 +44,7 @@ Slacks: https://flowtracker-team.slack.com/signup
 "nom":"Hubert",
 "prenom":"Léo",
 "email":"leo.hubert@epitech.eu", 
-"linkedin": "https://fr.linkedin.com/in/léo-hubert-05591041"
+"linkedin": "https://www.linkedin.com/in/leohubert"
 }
 ```
 ######Getan Leandre
