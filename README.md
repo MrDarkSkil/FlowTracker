@@ -5,7 +5,7 @@ FlowTraker est un system de géolocalisation utile
 pour les services de secours afin de savoir ou une personne 
 se trouve exactement ce qui permet de lui venir en aide le plus rapidement possible.
 
-###Outils nécessaires:
+### Outils nécessaires:
 + Serveur Apache2
 + php5
 + php5-mysql
@@ -14,7 +14,7 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + php5-curl
 + npm
 
-###Langages utilisés:
+### Langages utilisés:
 + PHP
 + HTML5
 + HTML
@@ -24,7 +24,7 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + Jquery
 + Ruby
 
-###Installation:
+### Installation:
 + Etape 1 => Installer tous les outils nécessaires sur le serveur et y upload les fichiers.
 + Etape 2 => Créer une table du nom que vous voulez dans la base de données.
 + Etape 3 => Importez "database.sql" dans la table que vous venez de créer.
@@ -32,13 +32,13 @@ se trouve exactement ce qui permet de lui venir en aide le plus rapidement possi
 + Etape 5 => Taper la commande suivante dans votre terminal: 'chown -R www-data:www-data /var/www/html'
 + Etape 6 => Connectez-vous ! email = "root@root.com"; password = "toor" .
 
-##Suivre le développement de l'application:
+## Suivre le développement de l'application:
 
 Slacks: https://flowtracker-team.slack.com/signup
 
-###Auteurs:
+### Auteurs:
 
-######Léo Hubert
+###### Léo Hubert
 ```json
 {
 "nom":"Hubert",
@@ -47,7 +47,7 @@ Slacks: https://flowtracker-team.slack.com/signup
 "linkedin": "https://www.linkedin.com/in/leohubert"
 }
 ```
-######Getan Leandre
+###### Getan Leandre
 ```json
 {
 "nom":"Leandre",
@@ -56,7 +56,7 @@ Slacks: https://flowtracker-team.slack.com/signup
 "linkedin": "https://fr.linkedin.com/in/gaëtan-léandre-7a22b3107/fr"
 }
 ```
-######Philipe Lefevre
+###### Philipe Lefevre
 ```json
 {
 "nom":"Lefevre",
@@ -66,6 +66,6 @@ Slacks: https://flowtracker-team.slack.com/signup
 }
 ```
 
-###Licence:
+### Licence:
 
-#####FlowTracker est sous une licence GPL se référer au fichier LICENCE
+##### FlowTracker est sous une licence GPL se référer au fichier LICENCE
